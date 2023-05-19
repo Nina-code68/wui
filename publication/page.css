@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: rgb(119, 190, 226);
+   
+}
+
+.nav-bar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    
+}
+
+.links{
+    display: flex;
+}
+
+.img1{
+    width: 200px;
+    height: 70px;
+    margin-left: 10px;
+}
+
+
+
+.img5{
+    width: 500px;
+    height: 600px;    
+}
+
+.welcome{
+    display: flex;
+}
+
+.text{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.text p{
+    margin-top: 20px;
+    margin-left: 70px;
+    background-color: white;
+    border-radius: 10px;
+    width: 600px;
+    height: 200px;
+    text-align: center;
+    padding: 20px;
+    font-family: Roboto, Arial, sans-serif;
+    
+
+}
+
+.p1{
+    color: white;
+    margin-top: 50px;
+    margin-left: 70px;
+    padding: 20px;
+    font-family: Roboto, Arial, sans-serif;
+
+}
+
+.p2{
+    width: 600px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 70px;
+    padding: 20px;
+    font-family: Roboto, Arial, sans-serif;
+
+}
+
+
+.text h1{
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.title{
+    padding: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.links ul{
+    display: flex;
+}
+
+.links ul li{
+    padding: 20px;
+    margin-top: 10px;
+    
+}
+
+.links ul li a{
+    text-decoration: none;
+    padding: 5px 5px;
+    color: rgb(119, 190, 226) ;
+
+}
+
+.links ul li a:hover{
+
+    color: black;
+}
+
+.footer{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: gray;
+    background-color: white;
+}
+
+.footer p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.details{
+    background-color: black;
+}
+
+.img2{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.download{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.welcome a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+    width: 80px;
+    height: 20px;
+}
+
+.welcome a:hover{
+    background-color:  rgb(119, 190, 226);
+}

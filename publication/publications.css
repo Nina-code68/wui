@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: burlywood;
+}
+
+.nav-bar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    
+}
+
+.links{
+    display: flex;
+}
+
+.img1{
+    width: 200px;
+    height: 70px;
+    margin-left: 10px;
+}
+
+.title1{
+    padding: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.links ul{
+    display: flex;
+}
+
+.links ul li{
+    padding: 20px;
+    margin-top: 10px;
+    
+}
+
+.links ul li a{
+    text-decoration: none;
+    padding: 5px 5px;
+    color: rgb(119, 190, 226) ;
+
+}
+
+.links ul li a:hover{
+
+    color: black;
+}
+
+.footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: gray;
+    background-color: white;
+}
+
+.pubs{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    padding: 20px;
+}
+
+.title{
+    background-color: white;
+    display: flex;
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    justify-content: space-between;
+
+}
+
+
+img{
+    height: 200px;
+}
+
+.text{
+    padding: 50px;
+    font-family: Roboto, Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 50px;
+    padding: 20px;
+
+}
+
+.footer p{
+    text-align: center;
+}
+
+
+button{
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    width: 60px;
+    height: 40px;
+    padding: 20px;
+    margin-left: 20px;
+    text-align: center;
+   
+}
+
+.text a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    background-color: black;
+    padding: 10px;
+    width: 60px;
+    height: 20px;
+
+    
+}
+
+.text a:hover{
+    background-color: burlywood;
+}
+
+.read{
+    margin-top: 20px;
+    margin-left: 100px;
+}
